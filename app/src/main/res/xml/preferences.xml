@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/settings_general_category">
+
+        <SwitchPreference
+            android:key="top_rated"
+            android:title="@string/top_rated"
+            android:summary="@string/top_rated_description"
+            android:defaultValue="false"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
