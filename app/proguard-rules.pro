@@ -6,13 +6,6 @@
 -keep class retrofit2.** { *; }
 -keepattributes Signature
 -keepattributes Exceptions
-
 -dontwarn okio.**
--dontwarn org.simpleframework.xml.stream.**
 
--keep public class org.simpleframework.** { *; }
--keep class org.simpleframework.xml.** { *; }
--keep class org.simpleframework.xml.core.** { *; }
--keep class org.simpleframework.xml.util.** { *; }
-
--keep class org.indywidualni.centrumfm.rest.model.** { *; }
+-keep class org.indywidualni.popularmovies.model.** { *; }
